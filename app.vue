@@ -37,6 +37,9 @@
     <div id="main">
       <NuxtPage />
     </div>
+    <div id="footer">
+      CopyRight © 2022 CoolersFun All Rights Reserved.
+    </div>
   </div>
 </template>
 
@@ -117,6 +120,7 @@ body {
   margin-top: 10px;
   border-radius: 10px;
   position: relative;
+  margin-bottom: 50px;
 }
 
 #head .nav ul {
@@ -157,11 +161,11 @@ body {
   }
 
   #head .nav {
-    width: 90%;
+    width: 100%;
   }
 
-  #main .content {
-    width: 88%;
+  #main {
+    width: 90%;
   }
 
 }
@@ -176,5 +180,16 @@ h1::before {
   content: "#";
   margin-right: 10px;
   color: #000;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  background-color: #000;
+  color: #fff;
+  line-height: 30px;
+  text-align: center;
 }
 </style>
