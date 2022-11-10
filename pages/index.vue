@@ -8,7 +8,8 @@
         <h1>『Coolers』的愿景</h1>
         <p>『Coolers』的愿景是成为全国最具影响力的技术团队，我们将积极开源，为『Coolers』带来影响力，同时我们也将积极参与开源项目，为开源项目带来影响力。</p>
         <h1>『Coolers』的主要技术栈</h1>
-        <p>『Coolers』的主要技术栈是Vue.js，同时我们也会使用一些其他的技术，比如Node.js、Python、Java等。<br />
+        <p>『Coolers』的主要技术栈是Vue.js，同时我们也会使用一些其他的技术，比如Node.js、Python、Java等。</p>
+        <p style="padding-top: 10px;">
             <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img
                     src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg"
                     alt="android" width="40" height="40" /> </a> <a href="https://azure.microsoft.com/en-in/"
