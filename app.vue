@@ -1,40 +1,42 @@
 <template>
-  <div id="head">
-    <div class="title">
-      Coolers
-      <div class="smallControl">冷却<div class="subtitle">工坊</div>
+  <div>
+    <div id="head">
+      <div class="title">
+        Coolers
+        <div class="smallControl">冷却<div class="subtitle">工坊</div>
+        </div>
+      </div>
+      <div class="desc">
+        冷却浮躁、不随大流。
+      </div>
+      <div class="nav">
+        <ul>
+          <NuxtLink to="/">
+            <li class="firstNav">
+              简介
+            </li>
+          </NuxtLink>
+          <NuxtLink to="/team">
+            <li>
+              成员
+            </li>
+          </NuxtLink>
+          <NuxtLink to="/work">
+            <li>
+              作品
+            </li>
+          </NuxtLink>
+          <NuxtLink to="/contact">
+            <li class="lastNav">
+              联系
+            </li>
+          </NuxtLink>
+        </ul>
       </div>
     </div>
-    <div class="desc">
-      冷却浮躁、不随大流。
+    <div id="main">
+      <NuxtPage />
     </div>
-    <div class="nav">
-      <ul>
-        <NuxtLink to="/">
-          <li class="firstNav">
-            简介
-          </li>
-        </NuxtLink>
-        <NuxtLink to="/team">
-          <li>
-            成员
-          </li>
-        </NuxtLink>
-        <NuxtLink to="/work">
-          <li>
-            作品
-          </li>
-        </NuxtLink>
-        <NuxtLink to="/contact">
-          <li class="lastNav">
-            联系
-          </li>
-        </NuxtLink>
-      </ul>
-    </div>
-  </div>
-  <div id="main">
-    <NuxtPage />
   </div>
 </template>
 
